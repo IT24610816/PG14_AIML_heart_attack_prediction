@@ -49,11 +49,15 @@ Applied SMOTE oversampling on train set to balance classes, with bar charts befo
 How to Run the Code
 
 1.Clone or download this repository.
+
 2.Place the dataset inside: data/raw/heart_attack_prediction_dataset.csv
+
 3.Open the individual notebooks from the notebooks/ folder to view each member’s preprocessing technique:
      ITxxxxxxx_Preprocessing_technique.ipynb
+     
 4.Run the combined pipeline notebook:
   FinalPipeline.ipynb → integrates all preprocessing steps into one flow.
+  
 5.All results will be saved in:
   results/eda_visualizations/ → plots & charts (PNG/JPEG)
   results/outputs/ → cleaned datasets & processed outputs
