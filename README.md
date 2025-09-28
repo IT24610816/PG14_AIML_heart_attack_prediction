@@ -6,6 +6,8 @@ This project focuses on building a leak-safe preprocessing pipeline for the Hear
 
 
 
+
+
 Dataset Details
 
 Name: Heart Attack Prediction Dataset
@@ -15,6 +17,8 @@ Source: Kaggle (by Sourav Banerjee)
 Size: 8,763 records × 25 columns (after removing IDs, 24 features + 1 target)
 
 Contents: Patient demographic, lifestyle, medical history, and clinical variables (e.g., Age, Sex, Cholesterol, Blood Pressure, Diabetes, Family History, Exercise, Diet, BMI, Country/Continent, etc.), with the target column “Heart Attack Risk” indicating the likelihood of heart attack.
+
+
 
 
 
@@ -43,6 +47,8 @@ Applied PCA to reduce dimensionality while retaining ~95% variance; visualized M
 6. Punchinilame. U . P . I. S - IT24610821 (Class Imbalance Handling)
 Checked target variable distribution to identify imbalance between classes (0: No Risk vs 1: Risk).
 Applied SMOTE oversampling on train set to balance classes, with bar charts before and after resampling.
+
+
 
 
 
